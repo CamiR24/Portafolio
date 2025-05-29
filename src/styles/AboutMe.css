@@ -83,7 +83,7 @@
     font-size: 230px;
     font-weight:700px; 
     line-height: 230px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
 
 .title-image-container {
@@ -105,4 +105,146 @@
     margin-left: 1000px;
     transform: rotate(-90deg);
     margin-top: -150px;
+}
+
+.rowSimple {
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+}
+
+.picture2, .picture3 {
+    height: 240px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.text-white-row {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-right: 450px;
+    width: 540px;
+}
+
+.picture4 {
+    height: 370px;
+    width: 620px;
+    margin-top: 40px; 
+}
+
+.columnSimple {
+    margin-left: 110px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.text-white-column {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 750px; 
+}
+
+.text-black {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.columnblack {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.picture5 {
+    height: 640px;
+    width: 420px;
+    margin-left: 40px;
+}
+
+.infocolumnblack {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.text-subtitle-black-EDU {
+    font-family: 'Inter', sans-serif;
+    font-size: 130px;
+    font-weight:700px;
+    color: black;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    width: 100%;
+    justify-self: flex-start;
+}
+
+.under-subtitle1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 700px;
+    color: black;
+    margin-top: -80px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    width: 100%;    
+}
+
+.under-subtitle2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700px;
+    color: black;
+    margin-top: -50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.under-subtitle3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700px;
+    color: black;
+    padding-top: 30px;
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: -5px;
+}
+
+.row-inside {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-black1 {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+    margin-top: -20px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.textbold-black2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    color: black;
+    width: 100%;
+    margin-top: -20px;
 }
