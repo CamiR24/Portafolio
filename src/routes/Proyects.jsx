@@ -4,13 +4,13 @@ import RowProyects from '../components/Proyects/RowProyects';
 import ProyectColumn from '../components/Proyects/ProyectColumn';
 import RowProyectAlone from '../components/Proyects/RowProyectAlone';
 
-import '../styles/AboutMe.css'
-import '../styles/Proyects.css'
-
 import CSS from '../assets/CSS.png'
 import REACT from '../assets/REACT.png'
 import VITE from '../assets/VITE.png'
 import Entrapp from '../assets/Entrapp.png'
+
+import '../styles/AboutMe.css'
+import '../styles/Proyects.css'
 
 export default function Proyects() {
   return (

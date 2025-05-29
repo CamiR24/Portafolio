@@ -1,0 +1,124 @@
+.first-slide-contact {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    margin-top: 300px;
+    margin-right: 150px;
+    width: 100%;
+}
+
+.title-contact {
+    margin-top: -30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 150px;
+    font-weight:700px; 
+    line-height: 230px;
+    margin-left: 280px;
+}
+
+.row-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.picture8 {
+    width: 716px;
+    height: 650px;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+.column-contact {
+    width: 25%;
+    margin-top: -120px;
+}
+
+.picture-container-contact {
+    width: 50%;
+}
+
+.socialmedia {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight:700px; 
+    margin-left: 70px;
+}
+
+.user {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    font-weight:700px; 
+    margin-left: 70px;   
+    margin-top: -20px;
+}
+
+.second-slide-contact {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 780px;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 330px;  
+}
+
+.picture9 {
+    width: 394px;
+    height: 740px;
+}
+
+.form {
+    background-color: black;
+    width: 977px;
+    margin-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.label {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.box {
+    width: 80%;
+    height: 60px;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-message {
+    width: 80%;
+    height: 100px;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.send-button {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 350px;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
