@@ -96,8 +96,11 @@
     height: 60px;
     margin-left: 70px;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inria Serif', serif;
+    font-size: 30px;
+    padding: 10px;
 }
 
 .box-message {
@@ -105,8 +108,11 @@
     height: 100px;
     margin-left: 70px;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inria Serif', serif;
+    font-size: 30px;
+    padding: 10px;
 }
 
 .send-button {

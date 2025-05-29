@@ -18,8 +18,8 @@ export default function Contact() {
             <h1 className='title-contact'>GET IN TOUCH</h1>
           </div>
           <RowContact picture={ContactMe2}>
-            <ColumnContact social1={'LINKEDIN'} user1={'Camila Richter De León'} social2={'BEHANCE'} user2={'Camila Richter De León'}/>
-            <ColumnContact social1={'GITHUB'} user1={'CamiR24'} social2={'CORREO'} user2={'camilarichterdl@gmail.com'}/>
+            <ColumnContact social1={'LINKEDIN'} user1={'Camila Richter De León'} social2={'BEHANCE'} user2={'Camila Richter De León'} link1={'https://www.linkedin.com/in/camila-richter-de-leon-39baa9332/'} link2={'https://www.behance.net/camilarichterdl'}/>
+            <ColumnContact social1={'GITHUB'} user1={'CamiR24'} social2={'CORREO'} user2={'camilarichterdl@gmail.com'} link1={'https://github.com/CamiR24'} link2={'https://workspace.google.com/intl/es-419/gmail/'}/>
           </RowContact>
         </div>
         <div className="second-slide-contact">
