@@ -128,4 +128,75 @@
     flex-direction: row;
 }
 
+.star-row {
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    height: 80px; 
+    width: 400px; 
+    overflow: visible; 
+}
 
+.star-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+    animation: moveStars ease-out both;
+    animation-timeline: scroll(root);
+    
+    animation-range: 0% 90%; /* Inicia al 20% del scroll y termina al 80% */
+    /* Otras opciones que puedes usar:
+    animation-range: 10% 60%;  - Más temprano y más rápido
+    animation-range: 30% 90%;  - Más tarde y más lento
+    animation-range: 0% 50%;   - Desde el inicio hasta la mitad
+    */
+    
+    animation-delay: calc(var(--star-index) * 0.1s);
+    
+    transform: translateX(calc(var(--star-index) * 80px * var(--progress, 0)));
+}
+
+@keyframes moveStars {
+    0% {
+        --progress: 0;
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    100% {
+        --progress: 1;
+        opacity: 1;
+    }
+}
+
+@supports not (animation-timeline: scroll()) {
+    .star-container {
+        animation: none;
+        transform: translateX(0); 
+        transition: transform 0.8s ease-out; 
+        transition-delay: calc(var(--star-index) * 0.15s); 
+    }
+    
+    .row-simple-languages.in-view .star-container {
+        transform: translateX(calc(var(--star-index) * 80px));
+    }
+
+    .column-languages1:hover .star-container {
+        transform: translateX(calc(var(--star-index) * 80px));
+    }
+}
+
+.scroll-instruction {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    z-index: 1000;
+}

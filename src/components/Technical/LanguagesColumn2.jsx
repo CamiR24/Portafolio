@@ -11,11 +11,11 @@ import git from '../../assets/git.png'
 const LanguagesColumn2 = () => {
     return(
         <div className= 'column-languages2'>
-            <LanguagesRowSimple picture={CSS_icon}/>
-            <LanguagesRowComplex picture={javascriptPic} text={'REACT Y VITE'}/>
-            <LanguagesRowSimple picture={assembler}/>
-            <LanguagesRowComplex picture={postgresql} text={'TABLE PLUS'}/>
-            <LanguagesRowComplex picture={git} text={'GITHUB'}/>
+            <LanguagesRowSimple picture={CSS_icon} level={5}/>
+            <LanguagesRowComplex picture={javascriptPic} text={'REACT Y VITE'} level={4}/>
+            <LanguagesRowSimple picture={assembler} level={2}/>
+            <LanguagesRowComplex picture={postgresql} text={'TABLE PLUS'} level={3}/>
+            <LanguagesRowComplex picture={git} text={'GITHUB'} level={4}/>
         </div>
     );
 }
