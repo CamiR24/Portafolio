@@ -14,7 +14,7 @@ import '../styles/Proyects.css'
 
 export default function Proyects() {
   return (
-    <div className="AboutMe-page">
+    <div className="Proyects-page">
         <Navbar />
         <div className="first-slide">
             <Title title={'PRO-YECTOS'} extra={'destacados'} />

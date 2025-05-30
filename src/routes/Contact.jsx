@@ -11,7 +11,7 @@ import '../styles/Contact.css'
 
 export default function Contact() {
   return (
-    <div className="AboutMe-page">
+    <div className="Contact-page">
         <Navbar />
         <div className="first-slide-contact">
           <div className='title-container'>

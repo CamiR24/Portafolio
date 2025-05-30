@@ -1,0 +1,131 @@
+.third-slide-technical {
+    display: flex;
+    background-color: white;
+    height: 1050px;
+    justify-items: center;
+}
+
+.second-slide-technical {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: black;
+    height: 840px;
+}
+
+.column-languages1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 2px solid black;
+}
+
+.row-simple-languages {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-language {
+    width: 140px;
+    height: 140px;
+    margin-right: 40px;
+}
+
+.column-languages2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.extra-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight:700px;
+    color: black;
+    margin-left: 280px;
+    margin-top: -40px;
+}
+
+.column-extra {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.info-extra-row {
+    display: flex;
+    flex-direction: row;  
+}
+
+.picture-container-extra {
+    width: 50%;
+}
+
+.extra-picture {
+    width: 722px;
+    height: 769px;
+    margin-top: 35px;
+}
+
+.subtitle-white-extra {
+    font-family: 'Inter', sans-serif;
+    font-size: 130px;
+    font-weight:700px;
+    color: white;
+    margin-top: 370px;
+    margin-left: 40px;
+}
+
+.extra-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight:700px;
+    color: white;
+    transform: rotate(-90deg);
+    margin-right: -130px;
+    margin-top: 80px;
+}
+
+.extra-description {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 340px;
+}
+
+.extra-image-container {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.extra-image {
+    width: 142px;
+    height: 107px;
+}
+
+.info-extra-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: row;
+}
+
+
