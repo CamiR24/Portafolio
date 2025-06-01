@@ -23,7 +23,7 @@ export default function Proyects() {
             <RowProyects >
                 <ProyectColumn picture={CSS} title={'CSS'} description={'Diseño solamente usando CSS - 2025'} link={'https://23183.dernait.my/lab4/lab4.html'} />
                 <ProyectColumn picture={REACT} title={'REACT'} description={'Juego de memoria con REACT - 2025'} link={'https://23183.dernait.my/lab7/index.html'} />
-                <ProyectColumn picture={VITE} title={'VITE'} description={'Calculadora con VITE - 2025'} link={'https://23183.dernait.my/lab7/index.html'} />
+                <ProyectColumn picture={VITE} title={'VITE'} description={'Calculadora con VITE - 2025'} link={'https://23183.dernait.my/proyecto1/'} />
             </RowProyects>
         </div>
         <div className="second-slide">

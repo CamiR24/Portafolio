@@ -146,12 +146,7 @@
     animation: moveStars ease-out both;
     animation-timeline: scroll(root);
     
-    animation-range: 0% 90%; /* Inicia al 20% del scroll y termina al 80% */
-    /* Otras opciones que puedes usar:
-    animation-range: 10% 60%;  - Más temprano y más rápido
-    animation-range: 30% 90%;  - Más tarde y más lento
-    animation-range: 0% 50%;   - Desde el inicio hasta la mitad
-    */
+    animation-range: 0% 90%;
     
     animation-delay: calc(var(--star-index) * 0.1s);
     
