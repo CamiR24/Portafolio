@@ -40,3 +40,146 @@
     font-family: 'Inria Serif', serif;
     font-size: 25px;
 }
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+.title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.title-column {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100px;
+}
+
+.title-and-image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-top: -200px;
+    margin-left: 120px;
+}
+
+.title-part2-container{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+.title-image-container {
+    width: 50%;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 230px;
+    font-weight:700px; 
+}
+
+.title-image {
+    height: 310px;
+    width: 510px;
+}
+
+.extra-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight:700px; 
+    transform: rotate(-90deg);
+    margin-left: -170px;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-nav {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        margin-top: -40px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .rectangle-navbar {
+        height: 40px;
+    }
+    
+    .title-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .title-column {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100px;
+    }
+    
+    .title-and-image-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        margin-top: -280px;
+        margin-left: 0px;
+    }
+    
+    .title-part2-container{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        height: 200px;
+        margin-top: -100px;
+        margin-left: 0px;
+    }
+    
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-size: 70px;
+        font-weight:700px; 
+        line-height: 200px;
+    }
+    
+    .title-image {
+        height: 90px;
+        width: 130px;
+    }
+    
+    .extra-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight:700px; 
+        transform: rotate(-90deg);
+        margin-top: -300px;
+    }
+}

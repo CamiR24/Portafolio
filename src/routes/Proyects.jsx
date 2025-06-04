@@ -1,5 +1,5 @@
 import Navbar       from '../components/Navigation/Navbar';
-import Title        from '../components/AboutMe/Title'
+import Title from '../components/Navigation/Title';
 import RowProyects from '../components/Proyects/RowProyects';
 import ProyectColumn from '../components/Proyects/ProyectColumn';
 import RowProyectAlone from '../components/Proyects/RowProyectAlone';
@@ -17,7 +17,7 @@ export default function Proyects() {
     <div className="Proyects-page">
         <Navbar />
         <div className="first-slide">
-            <Title title={'PRO-YECTOS'} extra={'destacados'} />
+            <Title title1={'PRO-'} title2={'YECTOS'} extra={'destacados'} />
         </div>
         <div className="third-slide">
             <RowProyects >

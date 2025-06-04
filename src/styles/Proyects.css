@@ -92,3 +92,112 @@
     height: 751px;
     margin-left: -470px;
 }
+
+@media screen and (max-width: 600px) {
+    .second-slide {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 1500px;
+        margin-top: 200px;
+    }
+    
+    .picture6 {
+        width: 300px;
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 35px;
+        margin-top: -2px;
+    }
+    
+    .row-proyects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: -150px;
+    }
+    
+    .inside-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .description-container {
+        margin-left: -350px;
+        width: 100px;
+        padding: 10%;
+    }
+    
+    .proyect-title {
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 700px;
+        color: black;
+        line-height: 20px;
+        margin-left: 100px;
+    }
+    
+    .text-black-proyects {
+        font-family: 'Inria Serif', serif;
+        font-size: 12px;
+        font-weight: 700px;
+        color: black;
+        line-height: 20px;
+        margin-left: 150px;
+        margin-top: -10px;
+    }
+    
+    .row-proyect-alone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .description-container {
+        width: 100%;
+        max-width: 800px; /* más ancho para pantallas grandes */
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin-top: -30px;
+        margin-right: -250px;
+    }
+    
+    .text-white-proyects {
+        font-family: 'Inria Serif', serif;
+        font-size: 16px;
+        color: white;
+        line-height: 30px;
+        text-align: justify;
+        margin-top: 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .subtitle-white-proyects {
+        font-size: 70px;
+        color: white;
+        transform: rotate(0deg);
+        margin-top: -300px;
+        margin-right: -430px;
+    }
+
+    .picture-container-proyects {
+        width: 100%;
+        margin-top: -220px;
+    }
+    
+    .picture7 {
+        width: 100%;
+        height: auto;
+        margin: 30px 0;
+    }
+}

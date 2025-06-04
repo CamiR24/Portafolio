@@ -1,5 +1,5 @@
 import Navbar       from '../components/Navigation/Navbar';
-import Title        from '../components/AboutMe/Title'
+import Title from '../components/Navigation/Title';
 import InfoRow        from '../components/AboutMe/InfoRow'
 import InfoColumn        from '../components/AboutMe/InfoColumn'
 import Subtitle        from '../components/AboutMe/Subtitle'
@@ -21,7 +21,7 @@ export default function AboutMe() {
     <div className="AboutMe-page">
         <Navbar />
         <div className="first-slide">
-            <Title title={'POR-TAFOLIO'} extra={'presentación'} />
+            <Title title1={'POR-'} title2={'TAFOLIO'} extra={'presentación'} />
         </div>
         <div className="second-slide">
             <InfoRow picture={AboutMePic} className={'picture1'}>

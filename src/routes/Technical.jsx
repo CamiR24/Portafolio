@@ -1,5 +1,5 @@
 import Navbar       from '../components/Navigation/Navbar';
-import Title        from '../components/AboutMe/Title'
+import Title from '../components/Navigation/Title';
 import LanguagesColumn1 from '../components/Technical/LanguagesColumn1';
 import LanguagesColumn2 from '../components/Technical/LanguagesColumn2';
 import ExtraColumn from '../components/Technical/ExtraColumn';
@@ -16,7 +16,7 @@ export default function Technical() {
     <div className="Technical-page">
         <Navbar />
         <div className="first-slide">
-            <Title title={'LEN-GUAJES'} extra={'programación'} />
+          <Title title1={'LEN-'} title2={'GUAJES'} extra={'programación'} />
         </div>
         <div className="third-slide-technical">
           <LanguagesColumn1 />

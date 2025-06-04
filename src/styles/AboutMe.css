@@ -1,8 +1,8 @@
 .first-slide {
     display: flex;
     background-color: white;
-    height: 540px;
     justify-items: center;
+    height: 540px;
 }
 
 .third-slide {
@@ -77,34 +77,8 @@
     margin-top: 20px;
 }
 
-.title {
-    margin-top: -30px;
-    font-family: 'Inter', sans-serif;
-    font-size: 230px;
-    font-weight:700px; 
-    line-height: 230px;
-    margin-left: 220px;
-}
-
-.title-image-container {
-    height: 330px;
-    width: 530px;
-    margin-left: 750px;
-    margin-top: -660px;
-}
-
-.title-image {
-    height: 310px;
-    width: 510px;
-}
-
-.extra-text {
-    font-family: 'Inter', sans-serif;
-    font-size: 65px;
-    font-weight:700px; 
-    margin-left: 1000px;
-    transform: rotate(-90deg);
-    margin-top: -150px;
+.title-container {
+    width: 20%;
 }
 
 .rowSimple {
@@ -270,4 +244,8 @@
 
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
+}
+
+@media screen and (max-width: 600px) {
+
 }
