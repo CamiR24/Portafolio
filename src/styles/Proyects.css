@@ -1,3 +1,22 @@
+.first-slide {
+    display: flex;
+    background-color: white;
+    justify-items: center;
+    height: 540px;
+}
+
+.third-slide {
+    display: flex;
+    background-color: white;
+    height: 840px;
+    justify-items: center;
+}
+
+.second-slide, .fourth-slide {
+    background-color: black;
+    height: 840px;
+}
+
 .picture6 {
     width: 428px;
     height: 423px;

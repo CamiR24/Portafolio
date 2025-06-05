@@ -20,21 +20,21 @@ export default function AboutMe() {
   return (
     <div className="AboutMe-page">
         <Navbar />
-        <div className="first-slide">
+        <div className="first-slide-AB">
             <Title title1={'POR-'} title2={'TAFOLIO'} extra={'presentación'} />
         </div>
-        <div className="second-slide">
+        <div className="second-slide-AB">
             <InfoRow picture={AboutMePic} className={'picture1'}>
                 <InfoColumn texto1={'Mi nombre es Camila Richter De León'} texto2={'Soy una persona disciplinada, organizada y creativa. Mi principal objetivo es adquirir experiencia laboral para perfeccionar mis habilidades y obtener nuevos conocimientos'} />
                 <InfoColumn texto1={'Mis habilidades'} texto2={'Comunicación efectiva, trabajo en equipo, liderazgo, resolución de problemas, responsabilidad, pensamiento crítico, adaptabilidad, creatividad, gestión de tiempo, Microsoft Suite: word, excel y power point'}/>
             </InfoRow>
             <Subtitle className = {'text-subtitle-white-AB'} text = {'ABOUT ME'} />
         </div>
-        <div className="third-slide">
+        <div className="third-slide-AB">
             <ColumnBlack1 texto1={'Me gradué de Campoalegre en 2022 como bachiller en ciencias y letras. Adicionalmente obtuve el diploma del Bachillerato Internacional'} picture={Education} /> 
             <InfoColumnBlack />
         </div>
-        <div className="fourth-slide">
+        <div className="fourth-slide-AB">
             <Subtitle className = {'text-subtitle-white-H'} text = {'HOBBIES'} />
             <InfoRowSimple picture2={Hobbies1} picture3={Hobbies2} text={'Soy una persona creativa a quien le gusta aprender siempre cosas nuevas, por esta razón me interesa estar activa en mi aprendizaje siempre, tomando cursos e interactuando con otras personas. Disfruto mucho de leer como pasatiempo.'} />
             <InfoRow picture = {Hobbies3} className={'picture4'} >
