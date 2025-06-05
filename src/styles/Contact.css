@@ -130,5 +130,129 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    .first-slide-contact {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 1040px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-container-contact {
+        margin-top: 0px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    
+    .title-contact {
+        margin-top: -30px;
+        font-family: 'Inter', sans-serif;
+        font-size: 80px;
+        font-weight:700px; 
+        line-height: 100px;
+        margin-left: 50px;
+    }
+    
+    .row-contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        margin-top: -20px;
+    }
+    
+    .picture8 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .column-contact {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .picture-container-contact {
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .socialmedia {
+        font-family: 'Inter', sans-serif;
+        font-size: 50px;
+        font-weight:700px; 
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+    
+    .user {
+        font-family: 'Inria Serif', serif;
+        font-size: 18px;
+        font-weight:700px; 
+        margin-left: 70px;   
+        margin-top: -20px;
+    }
+    
+    .second-slide-contact {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 780px;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 300px;  
+    }
+    
+    .picture9 {
+        width: 90%;
+        height: 740px;
+    }
+    
+    .form {
+        background-color: black;
+        width: 90%;
+        max-width: 977px;
+        margin: 40px auto; /* centra horizontalmente */
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+    
+    .label {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 2rem;
+        margin-left: 5%;
+    }
+    
+    .box,
+    .box-message {
+        width: 90%;
+        max-width: 800px;
+        margin: 10px 5%;
+        border-radius: 20px;
+        font-family: 'Inria Serif', serif;
+        font-size: 1.2rem;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .box-message {
+        height: 120px;
+    }
+    
+    .send-button {
+        background-color: white;
+        border-radius: 20px;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.8rem;
+        color: black;
+        padding: 15px 40px;
+        margin: 30px auto 0;
+        display: block;
+        width: fit-content;
+    }
+    
 }

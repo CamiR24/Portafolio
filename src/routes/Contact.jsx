@@ -14,7 +14,7 @@ export default function Contact() {
     <div className="Contact-page">
         <Navbar />
         <div className="first-slide-contact">
-          <div className='title-container'>
+          <div className='title-container-contact'>
             <h1 className='title-contact'>GET IN TOUCH</h1>
           </div>
           <RowContact picture={ContactMe2}>
