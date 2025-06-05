@@ -102,14 +102,14 @@
     font-size: 150px;
     color: white;
     transform: rotate(-90deg);
-    margin-left: -280px;
-    margin-top: -320px;
+    margin-left: -420px;
+    margin-top: -300px;
 }
 
 .picture7 {
     width: 720px;
     height: 751px;
-    margin-left: -470px;
+    margin-left: -260px;
 }
 
 @media screen and (max-width: 600px) {
